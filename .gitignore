@@ -12,6 +12,7 @@ resources/player.local.json
 resources/animations/*
 !resources/animations/.gitkeep
 !resources/animations/*.hbanim
+!resources/animations/README.txt
 
 resources/models/*
 !resources/models/.gitkeep

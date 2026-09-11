@@ -62,7 +62,8 @@ persist between runs.
 ## Rigging
 
 The default avatar has no bones mapped yet, so movement/grabbing won't work until
-you say "enter rigging mode" once connected, and map them yourself:
+you hold B to open the radial menu and select **Settings → Rigging Mode** once
+connected, and map them yourself:
 
 <img src="images/cesium_man_rigging_mode.jpg" alt="Cesium Man in rigging mode" width="300">
 
