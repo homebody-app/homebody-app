@@ -22,9 +22,9 @@ Want to see a fully rigged example, `bone_groups` and all? Download
 look at her `.json`.
 
 The hard part is `bone_groups` — mapping your model's bone names to what the
-engine expects. Easiest way: connect, say **"enter rigging mode"**, and follow
-the on-screen instructions to grab and assign bones directly. It writes the
-mapping back into your config for you.
+engine expects. Easiest way: connect, hold B to open the radial menu, select
+**Settings → Rigging Mode**, and follow the on-screen instructions to grab and
+assign bones directly. It writes the mapping back into your config for you.
 
 Got a working config for a popular rig? Share it — see the Discord link in the
 main README.
