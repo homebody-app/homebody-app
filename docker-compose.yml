@@ -9,7 +9,7 @@ services:
       - "7882:7882/udp" # WebRTC / UDP
 
   homebody-server:
-    image: ghcr.io/kevinmershon/homebody-server:latest
+    image: ghcr.io/homebody-app/homebody-server:latest
     restart: unless-stopped
     depends_on:
       - livekit-server

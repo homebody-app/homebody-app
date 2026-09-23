@@ -5,15 +5,15 @@ your own [OpenRouter](https://openrouter.ai/) API key.
 
 <p align="center">
   <b>Demo video</b><br>
-  <a href="https://www.youtube.com/watch?v=uR9DpFVwf3Y">
-    <img src="https://img.youtube.com/vi/uR9DpFVwf3Y/0.jpg" alt="Homebody demo video">
+  <a href="https://www.youtube.com/watch?v=za02Rx1VJzc">
+    <img src="https://img.youtube.com/vi/za02Rx1VJzc/0.jpg" alt="Homebody demo video">
   </a>
 </p>
 
 <p align="center">
   <b>Eve, a fully rigged avatar</b><br>
-  <a href="https://youtu.be/kSy6PwdXeFQ">
-    <img src="https://img.youtube.com/vi/kSy6PwdXeFQ/0.jpg" alt="Eve talking">
+  <a href="https://www.youtube.com/watch?v=wFHL_zmMQ7w">
+    <img src="https://img.youtube.com/vi/wFHL_zmMQ7w/0.jpg" alt="Eve talking">
   </a>
 </p>
 
@@ -21,7 +21,7 @@ your own [OpenRouter](https://openrouter.ai/) API key.
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/), running
 - An [OpenRouter](https://openrouter.ai/) API key
-- A Meta Quest 3 with the [Homebody APK](https://github.com/kevinmershon/homebody-app/releases/latest)
+- A Meta Quest 3 with the [Homebody APK](https://github.com/homebody-app/homebody-app/releases/latest)
   sideloaded, on the same Wi-Fi network
 
 Ships with a default avatar (Cesium Man) — no download needed to get started.
@@ -80,6 +80,6 @@ Want a different avatar entirely, or help mapping one? See
 ## Community
 
 Questions, bugs, or want to share what your avatar said? Join the
-[Discord](https://discord.gg/v7mbmZbFXp).
+[Discord](https://discord.gg/dPszJfW35m).
 
 [Patreon](https://www.patreon.com/cw/codingandcoffee/membership) link if you want to support me.
