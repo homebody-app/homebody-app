@@ -33,6 +33,7 @@ services:
       - ./resources/avatars:/app/resources/avatars
       - ./resources/animations:/app/resources/animations
       - ./resources/models:/app/resources/models
+      - ./resources/props:/app/resources/props
       - ./resources/effects:/app/resources/effects
       - ./resources/decision-engines:/app/resources/decision-engines
       - ./data:/app/data
