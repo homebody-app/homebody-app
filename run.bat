@@ -10,13 +10,13 @@ if not exist .env (
 findstr /b "OPENROUTER_API_KEY=sk-or-v1-your-key-here" .env >nul
 if %errorlevel%==0 (
     set /p OR_KEY="Enter your OpenRouter API key (https://openrouter.ai/): "
-    powershell -NoProfile -Command "(Get-Content .env) -replace '^OPENROUTER_API_KEY=.*', 'OPENROUTER_API_KEY=!OR_KEY!' | Set-Content .env"
+    powershell -NoProfile -Command "$c = (Get-Content .env) -replace '^OPENROUTER_API_KEY=.*', 'OPENROUTER_API_KEY=!OR_KEY!'; [System.IO.File]::WriteAllLines((Resolve-Path .env), $c, (New-Object System.Text.UTF8Encoding $false))"
 )
 
 findstr /b "PLAYER_NAME=YourName" .env >nul
 if %errorlevel%==0 (
     set /p PLAYER_NAME_INPUT="Enter your name: "
-    powershell -NoProfile -Command "(Get-Content .env) -replace '^PLAYER_NAME=.*', 'PLAYER_NAME=!PLAYER_NAME_INPUT!' | Set-Content .env"
+    powershell -NoProfile -Command "$c = (Get-Content .env) -replace '^PLAYER_NAME=.*', 'PLAYER_NAME=!PLAYER_NAME_INPUT!'; [System.IO.File]::WriteAllLines((Resolve-Path .env), $c, (New-Object System.Text.UTF8Encoding $false))"
 )
 
 echo Starting Docker containers...
