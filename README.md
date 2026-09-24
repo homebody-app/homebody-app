@@ -28,10 +28,10 @@ Ships with a default avatar (Cesium Man) — no download needed to get started.
 
 ## Setup
 
-**Windows**: clone/download this repo, then double-click `run.bat` inside it — it creates `.env`
-from the template, asks for your OpenRouter API key and name the first time (edit `.env` yourself
-later to change them), then starts Docker and the announcer for you. Leave the window open, put
-on your headset.
+**Windows**: download and extract [this zip](https://github.com/homebody-app/homebody-app/archive/refs/heads/main.zip),
+then double-click `run.bat` inside it — it creates `.env` from the template, asks for your
+OpenRouter API key and name the first time (edit `.env` yourself later to change them), then
+starts Docker and the announcer for you. Leave the window open, put on your headset.
 
 **macOS/Linux**:
 
