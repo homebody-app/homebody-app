@@ -1,4 +1,2 @@
-bin/* filter=lfs diff=lfs merge=lfs -text
-resources/animations/*.hbanim filter=lfs diff=lfs merge=lfs -text
-bin/* !text !filter !merge !diff
-resources/animations/*.hbanim !text !filter !merge !diff
+bin/* -text
+resources/animations/*.hbanim -text
