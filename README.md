@@ -28,6 +28,12 @@ Ships with a default avatar (Cesium Man) — no download needed to get started.
 
 ## Setup
 
+**Windows**: double-click `run.bat` — it creates `.env` from the template, asks for your
+OpenRouter API key and name the first time (edit `.env` yourself later to change them), then
+starts Docker and the announcer for you. Leave the window open, put on your headset.
+
+**macOS/Linux**:
+
 1. Clone/download this repo, open a terminal here.
 2. `cp .env.example .env`, fill in `OPENROUTER_API_KEY` and `PLAYER_NAME`. Set `TZ` to your
    [IANA timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) (e.g.
@@ -37,7 +43,6 @@ Ships with a default avatar (Cesium Man) — no download needed to get started.
    docker compose up -d
    ./bin/homebody-server-mac        # macOS -- pick one for your OS, leave it running
    ./bin/homebody-server-linux      # Linux
-   bin\homebody-server.exe          # Windows
    ```
    The binary broadcasts on your Wi-Fi so the headset can find the server — Docker
    can't do that by itself. Your headset finds it automatically once both are running.
