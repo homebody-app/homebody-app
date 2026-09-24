@@ -33,6 +33,9 @@ then double-click `run.bat` inside it — it creates `.env` from the template, a
 OpenRouter API key and name the first time (edit `.env` yourself later to change them), then
 starts Docker and the announcer for you. Leave the window open, put on your headset.
 
+If your headset says "no server detected," double-click `setup-firewall.bat` once (it'll ask for
+admin permission) to open the ports Homebody needs, then try again.
+
 **macOS/Linux**:
 
 1. Clone/download this repo, open a terminal here.
